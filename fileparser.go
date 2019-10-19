@@ -12,7 +12,6 @@ func main() {
 
 	configPath := flag.String("config", "", "Configuration file path")
 	flag.Parse()
-
 	if *configPath == "" {
 		panic("ERROR: config Path is required")
 	}
